@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #070c0c;
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    color: rgb(88, 156, 156);
+}
+.nav-links{
+    list-style:none;
+}
+.nav-links li{
+     display: inline;
+     padding: 6px 20px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: #242ec0;
+}
+button{
+    padding: 9px 25px;
+    background-color: rgb(169, 0, 0);
+border: none;
+border-radius: 50px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(169, 0, 0, 0.8);
+}
+
+
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #ecf0f1;
+text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.form h2{
+    color: #ecf0f1;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    display:block;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 1rem 0.25rem;
+}
+input, textarea{
+
+    display: block;
+    width: 100%;
+    border: 2px dotted darkcyan;
+    padding: 0.3rem;
+    font-size: 18px;
+    border-radius: 5px;
+}
+#snt{
+border: 0;
+background-color:blue ;
+padding: 1rem;
+color: white;
+margin: 1rem 0;
+width: auto;
+text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.form{
+    max-width: 500px;
+margin: 2rem auto;
+border: 2px dotted rgb(32, 112, 112);
+padding: 2rem;
+}
+
+
+
+.form button{
+    font-family: sans-serif;
+    font-size: 19px;
+    color: darkcyan;
+background-color: #2e326d;
+}
+
+
+
+
+
+
+
+
+.log-txt{
+    font-size: 52px;
+    font-family: sans-serif;
+    color: #ffff;
+    margin-left: 100px;
+    margin-top: 90px;
+}
